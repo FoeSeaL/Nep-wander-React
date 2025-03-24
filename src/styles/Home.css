@@ -1,0 +1,58 @@
+.tour {
+  position: relative;
+}
+.tour img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tour h4 {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 75%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.0941176471)), to(#000)), url(https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.0941176471), #000), url(https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg);
+  height: 100vh;
+}
+
+.logo {
+  width: 90px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-tabs .nav-link.active {
+  background: transparent;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+  color: #000;
+}
+
+.play {
+  width: 90px;
+}
+
+.squid {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.0941176471)), to(#000)), url(https://nepalwanders.com/wp-content/themes/nepalwanders/img/youtube.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.0941176471), #000), url(https://nepalwanders.com/wp-content/themes/nepalwanders/img/youtube.jpg);
+  height: 100vh;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
