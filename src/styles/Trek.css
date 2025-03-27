@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    }
+    .tour {
+      position: relative;
+    }
+    .tour img {
+      height: 200px;
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
+    .tour h4 {
+      position: absolute;
+      color: white;
+      left: 50%;
+      top: 75%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+    }
+    
+    .hero {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(#000)), url(https://nepalwanders.com/wp-content/uploads/2023/08/lt-1.jpg);
+      background: linear-gradient(rgba(0, 0, 0, 0.0941176471), #000), url(https://nepalwanders.com/wp-content/uploads/2023/08/lt-1.jpg);
+      height: 100vh;
+    }
+    
+    .logo {
+      width: 90px;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+      color: white;
+    }
+    
+    .nav-tabs .nav-link.active {
+      background: transparent;
+      color: #000;
+      font-weight: bold;
+    }
+    
+    .nav-tabs .nav-link {
+      color: #000;
+    }
+    
+    .play {
+      width: 90px;
+    }
+    
+    .navbar-toggler {
+      background-color: white;
+    }
+    
+    ul {
+      list-style: none;
+    }
+    a{
+      text-decoration: none !important;
+    }
+    
+    
+    
+    
+    
+    h1 .trek{
+        font-size: 90px;
+    }
+    .banner{
+      background-color: #434343;
+    }
+    .e-3 {
+      border: 2px solid #fff;
+      border-radius: 8px;
+      padding: 8px;
+      display: inline-block;
+    }
+    .e-4 {
+      border: 2px solid yellow;
+      border-radius: 8px;
+      padding: 8px;
+      display: inline-block;
+      color: yellow;
+    }
+    .paddin{
+      padding-left: 32px;
+    }
+    .paddin {
+      position: relative;
+    }
+    
+    .paddin::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 32px;
+      width: calc(100% - 32px);  
+      height: 1px;
+      background-color: rgba(0, 0, 0, 0.3);}
+      .navbar-nav .nav-link.active {
+        font-weight: bold; /* Make text bold */
+        color: white !important; /* Force white color */
+      }
+      
